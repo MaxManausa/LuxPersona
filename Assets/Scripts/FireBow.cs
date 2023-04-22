@@ -10,6 +10,7 @@ public class FireBow : MonoBehaviour
 {
     [SerializeField] private GameObject arrowSpawnPoint;
     [SerializeField] public Animator bowAnimation;
+    [SerializeField] public GameObject fakeArrow;
 
     public float fireRate = 0.5f;
     public GameObject arrowPrefab;
@@ -19,7 +20,8 @@ public class FireBow : MonoBehaviour
     public void OnButtonSmash()
     {
         DrawBack();
-        Invoke("ShootArrow",.5f);
+        Invoke("ShootArrow",.4f);
+        Invoke("ReenableArrow",.8f);
     }
 
     public void DrawBack()
@@ -31,11 +33,17 @@ public class FireBow : MonoBehaviour
 
     public void ShootArrow()
     {
+        fakeArrow.SetActive(false);
         Transform arrowSpawnPos = arrowSpawnPoint.transform;
 
         GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPos.position, arrowSpawnPos.rotation);
         Rigidbody arrowRb = arrow.GetComponent<Rigidbody>();
         arrowRb.AddForce(arrowSpawnPos.forward * arrowForce, ForceMode.Impulse);
         Debug.Log("hi!!!!!!!");
+    }
+
+    public void ReenableArrow()
+    {
+        fakeArrow.SetActive(true);
     }
 }

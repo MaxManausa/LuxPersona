@@ -1,6 +1,11 @@
 # FingerBows
 
-I want to prove that it is easy to make a fun handtracking game for the Quest 2 and HoloLens 2.
+I wanted to prove that it is easy to make a fun handtracking game for the Quest 2 and HoloLens 2. After doing it,
+I can admit that it was a little challenging, but overall easy. All it takes are some good Joost blog posts and initial project set-ups, 
+a little youtube videos here and there, and you're golden.
+
+Check the branches, there are builds for HoloLens 2, Quest 2 Passthrough Overlay, Quest 2 Passthrough Underlay, and Quest 2 AR/VR 
+(which means it can switch between AR and VR).
 
 I think FingerBows is a good idea because it brings the fun aspect of archery and hitting your target into AR,
 where a virtual crossbow can follow your finger, no real actual arrows can hurt anyone, and you’re able to 

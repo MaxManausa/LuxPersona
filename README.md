@@ -1,15 +1,8 @@
-# FingerBows
+# LuxPersona
 
-Check the branches, there are builds for HoloLens 2, Quest 2 Passthrough Overlay, Quest 2 Passthrough Underlay, and Quest 2 AR/VR 
-(which means it can switch between AR and VR).
+This Lux Persona prototype is a unique way to remember a loved one by creating holographic diary entries that reflect their personal experiences and characteristics.
 
-I think FingerBows is a good idea because it brings the fun aspect of archery and hitting your target into AR/VR,
-where a virtual crossbow can follow your finger, no real actual arrows can hurt anyone, and you’re able to 
-see the world around you at all times. 
-
-The FingerBows prototype works on the Quest 2/ Pro and HoloLens 2. Users will have a crossbow on the backs 
-of their index finger and be able to shoot a variety of targets via hand interactions. The user will be able to play
-a variety of archery minigames with their FingerBow while still aware of the physical world around them.
+The prototype also includes basic personal information about the loved one, such as their name, age, and occupation, to help create a more authentic and personal experience. By creating these holographic diary entries, users can relive memories and connect with their loved one in a way that feels tangible and real.
 
 This project was built on Joost van Schaik's project.
 Here is the link to his article:

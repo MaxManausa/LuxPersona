@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 569438141}
   - component: {fileID: 569438140}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: VideoScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

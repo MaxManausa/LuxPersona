@@ -3250,7 +3250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218690504}
   m_LocalRotation: {x: -0.030611005, y: -0.000000004545306, z: -0.0000003025182, w: 0.9995314}
-  m_LocalPosition: {x: 290, y: -131, z: -9}
+  m_LocalPosition: {x: 290.00006, y: -212, z: -8.00005}
   m_LocalScale: {x: 173.99448, y: 89.847984, z: 79.41541}
   m_Children:
   - {fileID: 1615653069}
@@ -6078,7 +6078,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396535722}
   m_LocalRotation: {x: 0.031481106, y: -0.000000023311495, z: -0.00000030165307, w: 0.9995044}
-  m_LocalPosition: {x: 0, y: 0, z: -22.500036}
+  m_LocalPosition: {x: 0, y: 0, z: -31}
   m_LocalScale: {x: 50, y: 33.43597, z: 99.91516}
   m_Children: []
   m_Father: {fileID: 1790561064}
@@ -6086,7 +6086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 3.608, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 145.99995}
+  m_AnchoredPosition: {x: 4, y: 140}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396535724
@@ -20885,7 +20885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -6.299, y: -24.328, z: -103.641}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.016, y: -0.201}
+  m_AnchoredPosition: {x: -0.016, y: -0.2079}
   m_SizeDelta: {x: 950, y: 556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1408167653
@@ -22906,7 +22906,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Transcript
+  m_text: transcript
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24720,7 +24720,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808290535}
   m_LocalRotation: {x: 0.21714155, y: -0.000000052154064, z: 0.00000029802322, w: 0.97614014}
-  m_LocalPosition: {x: 0, y: 0, z: 0.445}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4222}
   m_LocalScale: {x: 0.00024873205, y: 0.00025964473, z: 0.00060693023}
   m_Children:
   - {fileID: 1675299968}
@@ -24729,7 +24729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -6.299, y: -24.328, z: -103.641}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.016, y: -0.22}
+  m_AnchoredPosition: {x: -0.016, y: -0.2256}
   m_SizeDelta: {x: 950, y: 556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1810213765
@@ -25918,16 +25918,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877499656}
-  m_LocalRotation: {x: 0.031481106, y: -0.000000023311495, z: -0.00000030165307, w: 0.9995044}
-  m_LocalPosition: {x: 0, y: 0, z: -17.5}
-  m_LocalScale: {x: 50, y: 33.43597, z: 99.91516}
+  m_LocalRotation: {x: 0.015291081, y: -0.000000018423522, z: -0.00000030199107, w: 0.9998831}
+  m_LocalPosition: {x: 0, y: 0, z: -12}
+  m_LocalScale: {x: 59.500004, y: 39.788807, z: 118.89905}
   m_Children: []
   m_Father: {fileID: 1790561064}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 3.608, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.752, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 20}
+  m_AnchoredPosition: {x: 8, y: 2}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877499658
@@ -25950,13 +25950,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'information about Lux Persona,
-
-    it''s purpose, and what it does exactly
-
-
-    by
-    Max Manausa'
+  m_text: "By engaging with these \nholographic diary entries, \nusers can relive
+    memories \nand connect with someone\n in a way that feels tangible and real.\n\nby
+    Max Manausa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28410,7 +28406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069451054}
   m_LocalRotation: {x: -0.030610979, y: -0.0000000045453064, z: -0.00000030251817, w: 0.99953145}
-  m_LocalPosition: {x: -312, y: -131, z: -9}
+  m_LocalPosition: {x: -312, y: -212, z: -8}
   m_LocalScale: {x: 173.99448, y: 89.847984, z: 79.41542}
   m_Children:
   - {fileID: 255239888}

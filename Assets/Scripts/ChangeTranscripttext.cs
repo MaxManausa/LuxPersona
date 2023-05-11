@@ -36,12 +36,12 @@ public class ChangeTranscripttext : MonoBehaviour
     public void Transcript4()
     {
         transcriptText.text = "Question 4: Where were you born?\n\n" +
-                              "Response: I was born in Michigan," + 
-                              "we lived in Ann Arbor, Michigan" +
-                              "I was born in Detroit" +
-                              "when my mother was visiting" +
-                              "her mom and dad" +
-                              "and I was born in Detroit,"+
+                              "Response: I was born in Michigan, " + 
+                              "we lived in Ann Arbor, Michigan. " +
+                              "I was born in Detroit " +
+                              "when my mother was visiting " +
+                              "her mom and dad " +
+                              "and I was born in Detroit, "+
                               "but we lived in Ann Arbor.";
     }
     
@@ -58,34 +58,34 @@ public class ChangeTranscripttext : MonoBehaviour
     public void Transcript6()
     {
         transcriptText.text = "Question 6: Do you have a favorite hobby?\n\n" +
-                              "Response: My favorite hobby?" +
+                              "Response: My favorite hobby? " +
                               "Is gardening, and fishing," +
-                              "and boating. Fishing and" +
+                              "and boating. Fishing and " +
                               "boating are one.\n" +
-                              "Just the peacefulness of being" +
-                              "out on the water. It just gets" +
-                              "away from everything else." +
-                              "Gives me a place to be away" + 
+                              "Just the peacefulness of being " +
+                              "out on the water. It just gets " +
+                              "away from everything else. " +
+                              "Gives me a place to be away " + 
                               "from everyday situations.";
     }
     
     public void Transcript7()
     {
         transcriptText.text = "Question 7: Do you have a favorite book?\n\n" +
-                              "Response: I do:" +
-                              "'Pillars of the Earth',"+
+                              "Response: I do: " +
+                              "''Pillars of the Earth'', "+
                               "by Ken Follett.";
     }
     
     public void Transcript8()
     {
         transcriptText.text = "Question 8: Whats your favorite type of music?\n\n" +
-                              "Response: I like a lot of music" +
-                              "I don't really have a real" + 
-                              "favorite one" +
-                              "I like the 50s and 60s rock" +
-                              "and I like most music" + 
-                              "I like classical music," + 
+                              "Response: I like a lot of music " +
+                              "I don't really have a real " + 
+                              "favorite one " +
+                              "I like the 50s and 60s rock " +
+                              "and I like most music " + 
+                              "I like classical music, " + 
                               "I like piano music, " +
                               "I like dancing music.";
     }
@@ -100,7 +100,7 @@ public class ChangeTranscripttext : MonoBehaviour
     public void Transcript10()
     {
         transcriptText.text = "Question 10: What's your favorite food?\n\n" +
-                              "Response: My favorite food?" +
+                              "Response: My favorite food? " +
                               "A good steak.";
     }
     public void Transcript11()
@@ -113,7 +113,7 @@ public class ChangeTranscripttext : MonoBehaviour
     public void Transcript12()
     {
         transcriptText.text = "Question 12: What's your favorite animal?\n\n" +
-                              "Response: My favorite animal would be" +
+                              "Response: My favorite animal would be " +
                               "a dog";
     }
     

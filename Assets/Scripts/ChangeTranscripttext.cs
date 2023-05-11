@@ -9,7 +9,10 @@ public class ChangeTranscripttext : MonoBehaviour
 
     public void AboutTranscript()
     {
-        transcriptText.text = "This is the about transcript text";
+        transcriptText.text = "hey there\n" +
+                              "my name is Max\n" +
+                              "I made this prototype\n" +
+                              "I hope you enjoy it";
     }
     
     public void Transcript1()

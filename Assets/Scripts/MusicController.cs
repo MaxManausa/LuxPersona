@@ -9,8 +9,9 @@ public class MusicController : MonoBehaviour
 
     public bool musicPlaying = true;
     public bool allObjectsInactive = true;
+    public bool isMuted = false;
     
-    void CheckObjects()
+    public void Check()
     {
         foreach (GameObject obj in objectsToCheck)
         {
@@ -35,6 +36,19 @@ public class MusicController : MonoBehaviour
         {
             audioSource.Stop();
             musicPlaying = false;
+        }
+    }
+
+    public void Mute()
+    {
+
+        if (isMuted)
+        {
+            audioSource.Stop();
+        }
+        else
+        {
+            audioSource.Play();
         }
     }
 }

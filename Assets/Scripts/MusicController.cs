@@ -8,6 +8,7 @@ public class MusicController : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     public bool musicPlaying = true;
+    public bool allObjectsInactive = true;
     
     void CheckObjects()
     {
@@ -19,15 +20,21 @@ public class MusicController : MonoBehaviour
                 {
                     audioSource.Stop();
                     musicPlaying = false;
+                    allObjectsInactive = false;
                 }
                 return;
             }
         }
 
-        if (!musicPlaying)
+        if (allObjectsInactive && !musicPlaying)
         {
             audioSource.Play();
             musicPlaying = true;
+        }
+        else if (!allObjectsInactive && musicPlaying)
+        {
+            audioSource.Stop();
+            musicPlaying = false;
         }
     }
 }
